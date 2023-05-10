@@ -1,0 +1,186 @@
+/*Asignar estilos por etiquetas*/
+header { 
+    background-color: #16215B;
+    position: absolute;
+    width: 1449px;
+    height: 150px;
+    left: 0px;
+}
+
+h1{
+
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: white;
+    position: absolute;
+    width: 266px;
+    left: 206px;
+    margin-top: 25px;
+}
+
+h2{
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    color: white;
+}
+
+h3{
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 46px;
+    text-align: right;
+    color: white;
+    position: absolute;
+    right: 10;
+    left: 1234px;
+    bottom: 5px;
+}
+
+main{
+    position: absolute;
+    width: 1440px;
+    height: 1056px;
+    left: 0px;
+    top: 150px;
+}
+
+footer{
+    position: absolute;
+    width: 1449px;
+    height: 150px;
+    left: 0px;
+    top: 1195px;
+    background-color: #16215B;
+}
+
+p{
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    color: #16215B;
+}
+
+/*Asignar estilos por clase*/
+.logotipo {
+    position: absolute;
+    width: 139.45px;
+    height: 100px;
+    left: 39px;
+    top: 25px;
+}
+
+.banner{
+    position: absolute;
+    width: 1449px;
+    height: 450px;
+    left: 0px;
+    top: 7px;
+    z-index: -1;
+}
+
+.herramientas{
+    position: absolute;
+    width: 1449px;
+    height: 475px;
+    left: 0px;
+    top: 571px;
+    background-color: rgba(2, 115, 255, 0.5); 
+    mix-blend-mode: normal;
+}
+
+.slogan{
+    padding-top: 10px;
+    position: absolute;
+    width: 800px;
+    height: 46px;
+    left: 206px;    
+    top: 45px;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46px;
+    color: white;
+    
+}
+.pipipi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 122px;
+    position: absolute;
+    width: 1046px;
+    height: 190px;
+    left: calc(50% - 1046px/2);
+    top: 300px;
+}
+
+.equipo img:hover {
+    transform: scale(1.1); /* aumentar el tamaño al pasar el ratón */
+    
+}
+.desc{
+    padding-top: 15px;
+    text-align:center;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px; 
+}
+
+.caract{
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.lista-herramientas{
+    position: absolute;
+    width: 1449px;
+    height: 450px;
+    left: calc(50% - 392px/2);
+    top: 50px;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    color: #16215B;
+}
+
+.foot{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    left: 1324px;
+    bottom: 5px;
+    font-size: 40;
+
+}
+.her{
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 46px;
+    color: white;
+    text-decoration-line: underline;
+    margin-left: 42px;
+}
